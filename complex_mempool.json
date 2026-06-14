@@ -1,0 +1,809 @@
+{
+  "base_batch_gas_cents": "500",
+  "inventory_usdc": "250000",
+  "inventory_weth": "150000",
+  "inventory_arb": "50000",
+  "max_slippage_ceiling": "100",
+  "intents": [
+    {
+      "intent_id": "0x6e25ca2271ff7bde5a782a66a7854028ff7ef13a63435ad985f8f2c98b0819ac",
+      "token": "WETH",
+      "dest_payout_cents": "25846",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "26414",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xaf704cd46d56ec727e60988d0ca18e1a1bf7ee3b977b02ee6e45a042f729b70d",
+      "token": "USDC",
+      "dest_payout_cents": "4442",
+      "marginal_gas_cents": "257",
+      "expected_revenue_cents": "4591",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x63afda5da195fa6ef273552db563588ecc29e4ceac30728c673c15a94089600a",
+      "token": "USDC",
+      "dest_payout_cents": "26459",
+      "marginal_gas_cents": "174",
+      "expected_revenue_cents": "27085",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x9469f981710bcd87061d1efff63908378db1812651b35ede757ee2b169e325e2",
+      "token": "USDC",
+      "dest_payout_cents": "45945",
+      "marginal_gas_cents": "261",
+      "expected_revenue_cents": "46135",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x663ec3aec4b884dc4f85830425668590197ecb0001ccd0fbb9f4010a7294024f",
+      "token": "ARB",
+      "dest_payout_cents": "5149",
+      "marginal_gas_cents": "154",
+      "expected_revenue_cents": "5491",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x563bf41fde7e51c432e50bc671c26637b23dd08f5da2aad83bb8dbc5a77a3a8c",
+      "token": "USDC",
+      "dest_payout_cents": "49757",
+      "marginal_gas_cents": "258",
+      "expected_revenue_cents": "50135",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xa4a2210042e37295454bf9c10815cf9192d0bf11acb6b54da6474a45163c0cf4",
+      "token": "USDC",
+      "dest_payout_cents": "45566",
+      "marginal_gas_cents": "162",
+      "expected_revenue_cents": "46134",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xaa90a5712eb98fd5b222aabccbdee39c452bc1308ae80f4eb26073410d0c2043",
+      "token": "ARB",
+      "dest_payout_cents": "14772",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "14865",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xabd1de6346115f0c7b1fd26ef1749a7a3ecd4fb8ee014301632fb9be9c89a444",
+      "token": "ARB",
+      "dest_payout_cents": "30597",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "31006",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x0e78f2e6bd1cd3c87b367b1bea6053cebe1fecc2bd2b05584c2a23e63006a34f",
+      "token": "WETH",
+      "dest_payout_cents": "34421",
+      "marginal_gas_cents": "181",
+      "expected_revenue_cents": "34939",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xd16e284142fc2c61a8a796b05d97f75cc7ccbb10684fd2d7507f4aeb616f6d64",
+      "token": "ARB",
+      "dest_payout_cents": "21269",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "21813",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x1dbfc2320b24fb441476c03cb6cecd9cc666f0eae17135c64a3724b299a4933d",
+      "token": "ARB",
+      "dest_payout_cents": "33241",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "33810",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x4a6410a0fd0825da7dae741b94d131cf0254321cf8e2ccab7df743becd7d47b1",
+      "token": "WETH",
+      "dest_payout_cents": "39337",
+      "marginal_gas_cents": "256",
+      "expected_revenue_cents": "39748",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x91e092d5facedfaf23cf32431e49b8a3b90fada0fa5bfda649aad3054cd2b44f",
+      "token": "ARB",
+      "dest_payout_cents": "48993",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "49643",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x6a041086cb5273b8137150b64ab9c76271430d880aad4c070171f6f05869ecd2",
+      "token": "USDC",
+      "dest_payout_cents": "8123",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "8693",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xe7a50d0e9896e222ebd77e8ce5be4f8ec82ec971cff8ab2c06a88d8b3dad1ba0",
+      "token": "USDC",
+      "dest_payout_cents": "38866",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "39223",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x6cbd97ace299b37048851fd0acded7e4172ac5517a109b7d17d5bc6b14635c95",
+      "token": "ARB",
+      "dest_payout_cents": "4255",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "4451",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x1efbf368c723731c92fec2a291c2f4c95f4ae8ac8d3454d6af8437bf9299eb0d",
+      "token": "USDC",
+      "dest_payout_cents": "49667",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "50091",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xd21540fdcd5f2e036f095277a3d99d7da973a7bb982ecbbbcaaa5b78ea517729",
+      "token": "USDC",
+      "dest_payout_cents": "37981",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "38434",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xb6689bfd717ecc1136541446e440233bc84b78147f7f1a090d0b0528a4fd29e8",
+      "token": "USDC",
+      "dest_payout_cents": "8831",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "9313",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x9ec63a1c5c9236261bfbfa9af580117c4da4d5276e25346b82e5ee683d7d2b89",
+      "token": "ARB",
+      "dest_payout_cents": "23063",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "23220",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x7562fddc519d972b94c88fd9e3bd52eaa3cc58a5b248d5cb4d2a2d590d80c04f",
+      "token": "WETH",
+      "dest_payout_cents": "42115",
+      "marginal_gas_cents": "183",
+      "expected_revenue_cents": "42563",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xcdf18f49bc006379091a86ed61e35b70ba1fb41f334f147ae5f97c0804a9f47b",
+      "token": "ARB",
+      "dest_payout_cents": "14201",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "14851",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xc9bb4aed217cda3a1628e0d360afa7a7080f29da9aba70dae7dc7de19413f964",
+      "token": "USDC",
+      "dest_payout_cents": "26343",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "26991",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xd940d1f05bcd228406816eb9a5f1b3fd174493dab94a107f6d7d13f0fad62a9e",
+      "token": "ARB",
+      "dest_payout_cents": "13338",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "13749",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x44c9af07832d7fd5e1ead7534d58fb88b669c6bd053647eadab91996814ef06e",
+      "token": "USDC",
+      "dest_payout_cents": "37950",
+      "marginal_gas_cents": "159",
+      "expected_revenue_cents": "38260",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xdd480fd07ea63cd36b4c951ccce3cc92217b7de04f724b7ec0212c8262d26973",
+      "token": "ARB",
+      "dest_payout_cents": "4479",
+      "marginal_gas_cents": "154",
+      "expected_revenue_cents": "4756",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x7aae519686cf4ab9482d36e2112e14b595dad0bf9ce9790c27a3f1210d46a905",
+      "token": "WETH",
+      "dest_payout_cents": "6372",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "6546",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x6c2ed8a5ee7b27dbc6140ca5279a9f41804bec09dd97e53cce0d65d08da29577",
+      "token": "USDC",
+      "dest_payout_cents": "9040",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "9103",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x8266bd88e563354d608124b695a32b9963854720ff6c382c1923ec7cc0a7dff6",
+      "token": "ARB",
+      "dest_payout_cents": "6559",
+      "marginal_gas_cents": "154",
+      "expected_revenue_cents": "6724",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x9da7fd6ff97bac5d04001a9dbfc8fa5f4be6d9fd21299b149fbdf1011f572169",
+      "token": "ARB",
+      "dest_payout_cents": "31899",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "32299",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xfe43779b8c77d49f7985095171fb66bc1d522b0551a309fba9a43464db9e130e",
+      "token": "USDC",
+      "dest_payout_cents": "16268",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "16296",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x0663affb9ec16b6ca8f5fda17788ff27e97c811e343fb3e2b2a627308de969fe",
+      "token": "WETH",
+      "dest_payout_cents": "4383",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "4746",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x8cfd0d72567c67c015fff6b2d18204e2f72d8fad0798bb74121fe9a60be9bd45",
+      "token": "USDC",
+      "dest_payout_cents": "38106",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "38460",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xde1fe690935d60323b6579eeea8419b38ed0acba5d32d870184d531462c60d65",
+      "token": "ARB",
+      "dest_payout_cents": "9692",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "10028",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x5f206738481f1f9aceb353c1336c696471af3d5049b4b5379287da724e072343",
+      "token": "USDC",
+      "dest_payout_cents": "27106",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "27408",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xc0a6d9838c3ae29446efabc5ad6363d07733b92d48fab50311cdc7b3722864b4",
+      "token": "ARB",
+      "dest_payout_cents": "11004",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "11326",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x2640425be116c63ad5553f05dae09de8f4c4098959a64bb22145d9ffa28bd955",
+      "token": "ARB",
+      "dest_payout_cents": "16075",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "16390",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x11ca1eb627d96eb7cca11e0242f5fc4d761d3d96d13a26d2e47cda4fb77bbc10",
+      "token": "WETH",
+      "dest_payout_cents": "19819",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "19854",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xf6659be3e3bc4bd8d0d349a4cf0f589eb2662b969bcc43af4f212c4353730991",
+      "token": "WETH",
+      "dest_payout_cents": "45685",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "46115",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x6125003df5253d4839e5689e4b0c3e81b7db6a24428839ef4c61fb89179dc1b1",
+      "token": "USDC",
+      "dest_payout_cents": "8819",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "9120",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xa620ba6f23e888f154f820df59693b4a1649905e0653c0136ea869774e75e1ab",
+      "token": "WETH",
+      "dest_payout_cents": "29516",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "29923",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xbe97243ed67b8fcfc20052d1d1a05f8055f49fd28f10dce775e2ac0fdc180da6",
+      "token": "WETH",
+      "dest_payout_cents": "8219",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "8725",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x09ae67b563f38810da8a6871675f1a7149880fc4e13408516bb036012af4e108",
+      "token": "USDC",
+      "dest_payout_cents": "26223",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "26242",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xce4afdf7275ad46dee88e6dd0d6a3e899988d06a5df15883022ba48e39a29344",
+      "token": "WETH",
+      "dest_payout_cents": "24366",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "24380",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x24c0831818784e20e1983a52650768237b6c6b51062be3a5a50d14e4f2039594",
+      "token": "WETH",
+      "dest_payout_cents": "41590",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "42235",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x8790fb7e768228eb54030269500cdc9e9ff4d69ef4df8405c7ecc1aae497ee35",
+      "token": "USDC",
+      "dest_payout_cents": "45694",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "45987",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xc96c41b232b235683086d7f33c8c879722fd970ae939a485866fbfb516c28620",
+      "token": "WETH",
+      "dest_payout_cents": "15362",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "15947",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x9777168787ac3c8683f9d1f39a7b96b47fba84c300436bb96ca05628a887b6da",
+      "token": "USDC",
+      "dest_payout_cents": "16207",
+      "marginal_gas_cents": "81",
+      "expected_revenue_cents": "16546",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xc8323a47258518a5b23d845f18a6d0a7e2e4dc5843cc8eef2e986c161e50cbc6",
+      "token": "WETH",
+      "dest_payout_cents": "34891",
+      "marginal_gas_cents": "83",
+      "expected_revenue_cents": "35432",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x947e39bd39b2ed7447008e6e7d66fc622a9177980110fae8290861dd89a03588",
+      "token": "ARB",
+      "dest_payout_cents": "41369",
+      "marginal_gas_cents": "231",
+      "expected_revenue_cents": "41900",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xdd8688c271a3be81543cb78bc58ccc756e6ada317960717d93c2631d7d7f8151",
+      "token": "WETH",
+      "dest_payout_cents": "1956",
+      "marginal_gas_cents": "153",
+      "expected_revenue_cents": "2016",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x9c20783799db2e53579fb7437973f1a388176ec7a0b50532a0792009cf89d7b6",
+      "token": "USDC",
+      "dest_payout_cents": "41756",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "42282",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xef042da2885581448e6d364fba2ef4a1729ecb329291856bfc6fccee4957384e",
+      "token": "USDC",
+      "dest_payout_cents": "2666",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "2768",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x500031c1dc0b63c36963202523cd56ea348bb2140d285c057b95947cb2a40203",
+      "token": "USDC",
+      "dest_payout_cents": "15394",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "15843",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x80659203f07a1705cb3a013bdad453272280b927d1c06828868afb49e1f89428",
+      "token": "ARB",
+      "dest_payout_cents": "33666",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "34324",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x973016d512895fce64fb8ee52b7fbc1894bbe30ea65a4f97da4d6ffa42513116",
+      "token": "USDC",
+      "dest_payout_cents": "48089",
+      "marginal_gas_cents": "185",
+      "expected_revenue_cents": "48755",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x1d3260fce822441ccbe644325635c611c86564e5860d215753c522562fd74932",
+      "token": "WETH",
+      "dest_payout_cents": "8716",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "9289",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xeece15fba6d457f03ca4fb18f61782ab5f7e880f3c562a75d345405b25c66424",
+      "token": "WETH",
+      "dest_payout_cents": "9601",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "9790",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xcafa008b40d0fd3cee8aac833cbc2cf96681bde6e698e31094c0138045e820d2",
+      "token": "ARB",
+      "dest_payout_cents": "27113",
+      "marginal_gas_cents": "152",
+      "expected_revenue_cents": "27687",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xbfcf6e105daa4bcdab67924e5c9d1e643bdf0c91f42f4329616fdc760a774c9e",
+      "token": "ARB",
+      "dest_payout_cents": "7922",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "8264",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xe9e961677aed124270459ca8bb5e6c68a9ce4b4ee88079b8e98d23fec17cb2b6",
+      "token": "WETH",
+      "dest_payout_cents": "13224",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "13838",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x738c55ca95de6061d97c4e6e9bd861db507aa6d969f4fafd18f9dd83f5213e07",
+      "token": "USDC",
+      "dest_payout_cents": "15346",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "16006",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xa12936992673e87d8bd3d77c97cc6f0b849c90ed9dd769ec33174b55d210f51a",
+      "token": "ARB",
+      "dest_payout_cents": "9864",
+      "marginal_gas_cents": "95",
+      "expected_revenue_cents": "10217",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xd3e5391c247add914566fbdce89c9337e9686c44ac281f96721f850af0cfd299",
+      "token": "WETH",
+      "dest_payout_cents": "29462",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "29971",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x9928085482596b98d370e13819a96438ab76b1fcbffffac1681d5ef37dc2c4ec",
+      "token": "USDC",
+      "dest_payout_cents": "38771",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "39409",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x385883ec1663d97e720d3ae376b82d1006d1ff68b658360f160fa881cc95ad17",
+      "token": "WETH",
+      "dest_payout_cents": "11800",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "12207",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xc36ea55bc38230842a04dc6278c7889b9f455e8cf0e861f62b10eb6dd19546dd",
+      "token": "WETH",
+      "dest_payout_cents": "13963",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "14540",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xa77c1ca6ce967791d813ecdf0186aa16c26bdd5fbc9bc6e4e94e44e7aab5489d",
+      "token": "ARB",
+      "dest_payout_cents": "16334",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "16485",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x0f65637b830d7c61d4e76b2aff962aa81596d8fae5008e13ce5725ec29e6dc77",
+      "token": "USDC",
+      "dest_payout_cents": "43289",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "43900",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x5384852954ae3a844276f1bbb5c36e5e6672c3e1bb628da2d381a05e0c520d7c",
+      "token": "WETH",
+      "dest_payout_cents": "27619",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "28022",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xfebef805b521201518129e7e85af2d0ce22e3030e9642d46049e51be7b591206",
+      "token": "WETH",
+      "dest_payout_cents": "11259",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "11783",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x9514abc5eab915fef6d8622e59e655737000546b639b60d82e4d0cef90b6238d",
+      "token": "WETH",
+      "dest_payout_cents": "35822",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "35856",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x761d90099777f3b5a957ecd51ccd16bc376a0efbfcf2fe98c3b19c2e342b710b",
+      "token": "WETH",
+      "dest_payout_cents": "29057",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "29450",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xcfd6cd7d717bbc54e22c80472610427ae28e4f35abe924827b7d61f8f1e1681e",
+      "token": "WETH",
+      "dest_payout_cents": "44815",
+      "marginal_gas_cents": "185",
+      "expected_revenue_cents": "45203",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xfacdc27b45681d9f91258881c04393e54acdbc97c68fb60f84f64f7e2cf59d4f",
+      "token": "USDC",
+      "dest_payout_cents": "17919",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "18288",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x65757fd8fb80b2677ef63e05fa6785dc6dce61ed727fdd0651a5a8430008c07f",
+      "token": "WETH",
+      "dest_payout_cents": "43294",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "43693",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x80d20e5892b064a57f154119380c19f0b4e1ce363f4496e8256e11f0150edad8",
+      "token": "USDC",
+      "dest_payout_cents": "12150",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "12671",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xc460f91915cfe32981407aa6c5e774f667a588160271f42eb6d28eb255ba04e3",
+      "token": "ARB",
+      "dest_payout_cents": "45243",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "45423",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xa1ab48f6260ced223b1b65f27128b407d4df2c3dd0f7044bcab1f9f11d534df5",
+      "token": "ARB",
+      "dest_payout_cents": "9295",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "9780",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x74954857492752226d80070ac34788b97a6d44f4a632f42937dec42bdfd8012d",
+      "token": "USDC",
+      "dest_payout_cents": "48955",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "49321",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x19d1abea65d43bd995546438d57fbd66a50937b51c6b3ee3587cd24d2ff89614",
+      "token": "WETH",
+      "dest_payout_cents": "46934",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "47605",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xe8695036b642ccde4d265e15ac34a1ee9b0c486816abbf95ddf85c6dc2a5dbc4",
+      "token": "USDC",
+      "dest_payout_cents": "32819",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "33452",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xc2cdf1e87f8b683f3d77b40c75ba409857b81d09b2d1ec039b78efefc8c7af61",
+      "token": "WETH",
+      "dest_payout_cents": "8096",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "8701",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xbf5f995424a079ae76428d478993498247fde49757550f0a68318b551406d283",
+      "token": "USDC",
+      "dest_payout_cents": "23174",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "23222",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xb601bc7e65055f8bfe670c9f66d847170ea766ae24e05fd6923aa4f8adac436c",
+      "token": "USDC",
+      "dest_payout_cents": "25192",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "25518",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x09a4c43c6997ade599a7027c12d7cfa2bca4b174dcd95e591f122667798c25ca",
+      "token": "WETH",
+      "dest_payout_cents": "30953",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "31416",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x32c6167f9f3e54f1f7bbacf382f8b54aff838066ab43c8589f348a7e0b7a8e64",
+      "token": "WETH",
+      "dest_payout_cents": "26900",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "26985",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x78551bc85c410cb2ba10873f036b285503fe79275b1fd8efb4bfa4fe36f29b24",
+      "token": "ARB",
+      "dest_payout_cents": "19586",
+      "marginal_gas_cents": "186",
+      "expected_revenue_cents": "19995",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xa4f88cd076277591472267e5adbe089f6ac194ce55da8b7c1b753075995f4a34",
+      "token": "ARB",
+      "dest_payout_cents": "17875",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "18254",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x96904489caa2ed38e1aac2f5ecfc47c626a4965f275766f80ebae72ae44f273f",
+      "token": "ARB",
+      "dest_payout_cents": "43358",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "43894",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x01cfc3b0750e3ef0246c73274751e3ab4c68e6675514215ee78f873754e11255",
+      "token": "WETH",
+      "dest_payout_cents": "34526",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "34993",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x2f4b44e692befc180942e94a9cb473face36fd85894ad980e3b80c00c3c39ae4",
+      "token": "WETH",
+      "dest_payout_cents": "2687",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "3324",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0x9e2ea38649f2aa47c5ee658d60c7a997451a008b0e356267c51e0bc519fdaf2b",
+      "token": "WETH",
+      "dest_payout_cents": "16407",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "17031",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xcea2af034f01e5fe875a5deb67cc4b83ae0441b841a17df9ee08640cb555fff6",
+      "token": "WETH",
+      "dest_payout_cents": "48530",
+      "marginal_gas_cents": "180",
+      "expected_revenue_cents": "49045",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0xfc1a420e48c6b56827413ce8b53a0bb5afea10afa6aced9c8c511614819e6d1a",
+      "token": "WETH",
+      "dest_payout_cents": "12840",
+      "marginal_gas_cents": "181",
+      "expected_revenue_cents": "13476",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0xe32cf3911f16a127d5da57e690491192efe41aaae69efb75fec3e1e23468f7fe",
+      "token": "WETH",
+      "dest_payout_cents": "9181",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "9304",
+      "slippage_impact_factor": "2"
+    },
+    {
+      "intent_id": "0x08b8a5412376f8bcb136632c7855d6125d4dbfaa828cbdb63180864824abcae1",
+      "token": "ARB",
+      "dest_payout_cents": "24069",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "24107",
+      "slippage_impact_factor": "3"
+    },
+    {
+      "intent_id": "0x04f42cbfc6c670797595b2787fea3736505abb1f7af9bbb46722114bb2af8245",
+      "token": "WETH",
+      "dest_payout_cents": "19177",
+      "marginal_gas_cents": "179",
+      "expected_revenue_cents": "19711",
+      "slippage_impact_factor": "1"
+    },
+    {
+      "intent_id": "0xe5f5e0fbd12eaa93b1ad941d7af1eeec2a32c7b4d1167dcc3fa9e1854838f6d3",
+      "token": "USDC",
+      "dest_payout_cents": "28499",
+      "marginal_gas_cents": "178",
+      "expected_revenue_cents": "28650",
+      "slippage_impact_factor": "2"
+    }
+  ]
+}
